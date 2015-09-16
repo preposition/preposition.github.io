@@ -1,16 +1,98 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Combining Geometric, Textual and Visual Features for Predicting Prepositions in Image Descriptions</title>
-<style>
-body { font: normal normal normal 1em "Trebuchet MS",Tahoma,Geneva,Helvetica,Arial,sans-serif; color: #000000;  }
-h1 { text-align: center; }
-p { text-align: center; font-size: 1.5em; }
-</style>
+  <meta charset="utf-8">
+  <meta name="description" content="ViSen Prepositions Dataset. Given two visual entities and their localization in an image, what is the best preposition that best expresses the relation between the two entities? Paper: Arnau Ramisa*, Josiah Wang*, Ying Lu, Emmanuel Dellandrea, Francesc Moreno-Noguer and Robert Gaizauskas (2015). Combining Geometric, Textual and Visual Features for Predicting Prepositions in Image Descriptions. In Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP 2015)." />
+
+  <title>ViSen Prepositions Dataset</title>
+  <link rel="stylesheet" href="public/css/base.css">
 </head>
 <body>
-<h1>Combining Geometric, Textual and Visual Features for Predicting Prepositions in Image Descriptions</h1>
-<p>Coming soon...</p>
+  <div id=container">
+	  <header>
+		<h1>ViSen Prepositions Dataset</h1>
+	  </header>
+
+	  <div id="main">
+		  <section id="eyecatcher"><img src="public/img/prep_example.png" alt="Predicting Prepositions" /></section>
+		  
+		  <section id="about">
+			<h2>Overview</h2>
+
+			<div class="section-content">
+			  <p>We explore the task of predicting the preposition that best expresses the relation between two visual entities.</p>
+			  <p>More specifically, given a <em>trajector</em> entity and a <em>landmark</em> entity and their location and size in an image, predict the most suitable preposition that connects these two entities (as used in human-authored image descriptions).</p>
+			  <p>For example, for the instance "<strong><span style="color:red">boy</span> ___ <span style="color:blue">sled</span></strong>", where "<strong style="color:red">boy</strong>" is the trajector and "<strong style="color:blue">sled</strong>" the landmark, select the best preposition to fill in the blank given the category labels and their corresponding bounding boxes.</p>
+			</div>
+		  </section>
+		  
+		  <section id="dataset">
+			<h2>Dataset</h2>
+			<div class="section-content">
+			  <p>We are currently packaging the dataset for download. Please stay tuned!</p>
+			</div>
+		  </section>
+		  
+		  <section id="citation">
+			<h2>Citation</h2>
+
+			<div class="section-content">
+			<p>If you use this dataset, please cite the following work:</p>
+			
+			<p>
+			<span style="font-weight:bold">Combining Geometric, Textual and Visual Features for Predicting Prepositions in Image Descriptions</span> [ <a href="http://www.aclweb.org/anthology/D/D15/D15-1022.pdf">Paper</a> | <a href="http://www.aclweb.org/anthology/attachments/D/D15/D15-1022.Attachment.pdf">Supplementary Material</a> ]<br/>
+			<span>Arnau Ramisa*, Josiah Wang*, Ying Lu, Emmanuel Dellandrea, Francesc Moreno-Noguer, Robert Gaizauskas (* = equal contribution)</span><br/>
+			<span style="font-style:italic">In Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP 2015).</span>
+			</p>
+
+			<pre id="citation-publication-bibtex">
+@InProceedings{Ramisa-EtAl:2015:EMNLP,
+  author    = {Ramisa, Arnau  and  Wang, Josiah  and  Lu, Ying  and  Dellandrea, Emmanuel  and  Moreno-Noguer, Francesc  and  Gaizauskas, Robert},
+  title     = {Combining Geometric, Textual and Visual Features for Predicting Prepositions in Image Descriptions},
+  booktitle = {Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing},
+  month     = {September},
+  year      = {2015},
+  address   = {Lisbon, Portugal},
+  publisher = {Association for Computational Linguistics},
+  pages     = {214--220},
+  url       = {http://aclweb.org/anthology/D15-1022}
+}
+			</pre>
+			</div>
+		  </section>
+
+		  <section id="publications">
+			<h2>Related Publications</h2>
+			
+			<div class="section-content">
+			<p>
+			<span>Arnau Ramisa*, Josiah Wang*, Ying Lu, Emmanuel Dellandrea, Francesc Moreno-Noguer, Robert Gaizauskas (* = equal contribution)</span><br/>
+			<span style="font-weight:bold">Combining Geometric, Textual and Visual Features for Predicting Prepositions in Image Descriptions</span><br/>
+			<span style="font-style:italic">In Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP 2015).</span><br/>
+			[ <a href="http://www.aclweb.org/anthology/D/D15/D15-1022.pdf">Paper</a> | <a href="http://www.aclweb.org/anthology/attachments/D/D15/D15-1022.Attachment.pdf">Supplementary Material</a> ]
+			</p>
+			</div>
+		  </section>
+		  
+		  <section>
+			<h2>Contact</h2>
+			<div class="section-content">
+			  <p>For any enquiries please contact <a href="http://www.josiahwang.com/">Josiah Wang</a>.</p>
+			</div>
+		  </section>
+		  
+		  <section>
+			<h2>Acknowledgements</h2>
+			<div class="section-content">
+			  <p>This work was funded by the EU <a href="http://www.chistera.eu/">CHIST-ERA</a> D2K 2011 <a href="https://sites.google.com/site/visenproject/">Visual Sense (ViSen)</a> project.</p>
+			  <p>It was also partly funded by the Spanish MINECO <a href="http://www.iri.upc.edu/project/show/151">RobInstruct</a> project.</p>
+			</div>
+		  </section>
+		</div>
+	  
+	  <footer>
+		 <p>Copyright &copy; 2015 <a href="https://sites.google.com/site/visenproject/">The ViSen Consortium</a>. All rights reserved.</p>
+	  </footer>
+	 </div>
 </body>
 </html>
