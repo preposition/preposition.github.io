@@ -113,3 +113,13 @@ footer > p a:active  {
 	padding: 1rem 0 1rem 1rem;
 width: 50%;
 }
+
+ol {
+list-style-position: inside;
+margin-bottom: 2.4rem;
+}
+
+li {
+font-size: 1.2rem; 
+margin-bottom: 1rem;
+}
